@@ -1,0 +1,32 @@
+# Virtual environment (must not be committed)
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Downloads / media
+downloads/
+*.mp3
+*.m4a
+*.webm
+*.mp4
+*.wav
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+*.pem
+credentials.json
